@@ -41,7 +41,6 @@ public class EmployeesTests {
         employeesSteps.deleteEmployee(employeesSteps.getIdNewEmployee());
         employeesSteps.statusCodeShouldBe(200);
         employeesSteps.getNewEmployee();
-        employeesSteps.valueForFieldInPathShouldBe
-                ("data", null);
+        employeesSteps.valueForFieldInPathShouldBe("data", null);
     }
 }
